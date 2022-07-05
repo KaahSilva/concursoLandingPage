@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;400&family=Poppins:wght@800&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+:root{
+    font-size: 62.5%;
+ 
+    --primary-font: 'Poppins', sans-serif;
+
+    --primary-color:#03001e; 
+    --paragraph:#fdeff9;
+    --line:#fccc ;
+    
+}
+
+body{
+    background-color: var(--primary-color);
+    font-family: var(--primary-font);
+    height:100%;
+    width: 100%;
+}
+
+img{
+    max-width: 100%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main  h1{
+    display: flex;
+    margin:1.2rem 1.2rem 0rem 1.2rem;
+    padding: 4.0rem 4.0rem 0rem 4.0rem;
+    font-size: 5.0rem;
+    text-align: center;
+    color: var(--paragraph);
+}
+
+.img-conecta-thanks{
+    margin-top:1.2rem ;
+}
+
+hr{
+    width: 80%;
+    height: .3rem;
+    border-width: 0;
+    background-color: var(--line);   
+    
+}
+
+@media(max-width: 854px) {
+    main  h1{
+        font-size: 4rem;
+    }
+
+    hr{
+        width: 70%;
+    }
+}
+
+@media (max-width: 763px){
+    main  h1{
+        font-size: 3rem;
+    }
+}
+
+
