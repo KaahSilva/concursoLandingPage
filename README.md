@@ -9,6 +9,8 @@
  - JAVASCRIPT 
  - PHP
  
+ #### Link para a visualização da pagina : https://kaahsilva.github.io/concursoLandingPage/
+ 
  #### Alem disso a Landing Page conta com responsividade e acessibilidade.
  
  ## Versão Desktop: 
